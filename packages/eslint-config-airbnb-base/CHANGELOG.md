@@ -36,7 +36,7 @@
 11.1.0 / 2017-01-08
 ==================
  - [minor] enable `no-multi-assign`
- - [deps] update `eslint`, `babel-preset-airbnb`
+ - [deps] update `eslint`, `babel-preset-ideame`
  - Update a deprecated option (`eqeqeq`) (#1244)
 
 11.0.1 / 2017-01-08
@@ -80,7 +80,7 @@
  - [breaking] [deps] update `eslint-plugin-import` to v2 (#1101)
  - [patch] `new-cap`: add immutable.js exceptions
  - [docs] ensure latest version of config is installed
- - [dev deps] update `babel-preset-airbnb`, `eslint`, `eslint-find-rules`, `tape`, `safe-publish-latest`
+ - [dev deps] update `babel-preset-ideame`, `eslint`, `eslint-find-rules`, `tape`, `safe-publish-latest`
 
 8.0.0 / 2016-09-24
 ==================
@@ -88,7 +88,7 @@
 
 7.2.0 / 2016-09-23
 ==================
- - [new] set `ecmaVersion` to 2017; enable object rest/spread; update `babel-preset-airbnb`
+ - [new] set `ecmaVersion` to 2017; enable object rest/spread; update `babel-preset-ideame`
  - [patch] fix category of `no-restricted-properties`
  - [deps] update `eslint`, `eslint-plugin-import`, `eslint-find-rules`, `safe-publish-latest`
 
@@ -139,7 +139,7 @@
 ==================
  - [breaking] enable `import/newline-after-import`
  - [breaking] enable overlooked rules: `linebreak-style`, `new-parens`, `no-continue`, `no-lonely-if`, `operator-assignment`, `space-unary-ops`, `dot-location`, `no-extra-boolean-cast`, `no-this-before-super`, `require-yield`, `no-path-concat`, `no-label-var`, `no-void`, `constructor-super`, `prefer-spread`, `no-new-require`, `no-undef-init`, `no-unexpected-multiline`
- - [deps] update `eslint`, `eslint-find-rules`, `eslint-plugin-import`, `babel-tape-runner`; add `babel-preset-airbnb`
+ - [deps] update `eslint`, `eslint-find-rules`, `eslint-plugin-import`, `babel-tape-runner`; add `babel-preset-ideame`
  - [patch] flesh out defaults: `jsx-quotes`
  - [docs] update the peer dep install command to dynamically look up the right version numbers when installing peer deps
  - [tests] fix prepublish scripts
@@ -212,4 +212,4 @@
 
 1.0.0 / 2016-04-19
 ==================
- - Initial commmit; moved content over from `eslint-config-airbnb` package.
+ - Initial commmit; moved content over from `eslint-config-ideame` package.

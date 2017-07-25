@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-airbnb",
+  "name": "eslint-config-ideame",
   "version": "15.1.0",
-  "description": "Airbnb's ESLint config, following our styleguide",
+  "description": "Ideame's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
     "prelint": "editorconfig-tools check * rules/* test/*",
@@ -10,19 +10,19 @@
     "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish || npm test) && safe-publish-latest",
     "pretest": "npm run --silent lint",
     "test": "npm run --silent tests-only",
-    "pretravis": "cd ../eslint-config-airbnb-base && npm install && npm link && cd - && npm link --no-save eslint-config-airbnb-base",
+    "pretravis": "cd ../eslint-config-ideame-base && npm install && npm link && cd - && npm link --no-save eslint-config-ideame-base",
     "travis": "npm run --silent test",
-    "posttravis": "npm unlink eslint-config-airbnb-base >/dev/null &"
+    "posttravis": "npm unlink eslint-config-ideame-base >/dev/null &"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/javascript"
+    "url": "https://github.com/ideame/javascript"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
-    "airbnb",
+    "ideame",
     "javascript",
     "styleguide"
   ],
@@ -44,14 +44,14 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/javascript/issues"
+    "url": "https://github.com/ideame/javascript/issues"
   },
-  "homepage": "https://github.com/airbnb/javascript",
+  "homepage": "https://github.com/ideame/javascript",
   "dependencies": {
-    "eslint-config-airbnb-base": "^11.3.0"
+    "eslint-config-ideame-base": "^11.3.0"
   },
   "devDependencies": {
-    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-ideame": "^2.4.0",
     "babel-tape-runner": "^2.0.1",
     "editorconfig-tools": "^0.1.1",
     "eslint": "^3.19.0 || ^4.3.0",
